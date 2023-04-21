@@ -2,4 +2,4 @@
 
 upload sql files
 
-record sth may be useful
+record sth useful
