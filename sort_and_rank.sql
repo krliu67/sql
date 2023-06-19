@@ -1,5 +1,5 @@
 
--- 并列要占位
+-- 并列要占位 当分数和上一次一样的时候取第一个分数的排名，当分数不一样的时候，取简单排名的名次。
 SELECT t.user_id, t.miles, t.rank 
 FROM
 (SELECT u.user_id, u.miles, @rank := @rank + 1, 
